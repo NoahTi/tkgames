@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<title>TK Games</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="contactform.html" class="w3-bar-item w3-button">Contact Form</a>
+ <!--<a href="#htd" onclick="w3_close()" class="w3-bar-item w3-button">Food</a>-->
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-center w3-padding-16">TK Games Selection</div>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <a name="htd"></a>
+       <h3><a href="hitthedotpw.html">Hit the Dot!</a></h3>
+      <p>Collect as many green dots as you can without hitting to many red dots.</p>
+    </div>
+    <div class="w3-quarter">
+      <h3><a href="chess.html">Chess</a></h3>
+      <p>Play chess vs a version of stockfish. Coming Soon, or never</p>
+    </div>
+    <div class="w3-quarter">
+      <h3><a href="checkers.html">Checkers</a></h3>
+      <p>Play checkers now.</p>
+    </div>
+    <div class="w3-quarter">
+      <h3><a href="racepw.html">Race</a></h3>
+      <p>Get past other cars without a crash.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-half">
+      <h3><a href="ping-pongpw.html">Ping Pong</a></h3>
+      <p>Probably the hardest game on TK Games, try to bounce the ball to the other board. USe the a & s keys to move back and forth on
+        the top and the back and forth keys to move backward on the bottom.
+      </p>
+    </div>
+    <div class="w3-quarter">
+      <h3><a href="upanddownpw.html">UAD</a></h3>
+      <p>Move the box up and down without hitting the bars.</p>
+    </div>
+    <div class="w3-quarter">
+      <h3</h3>
+      <p></p>
+    </div>
+
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-half">
+      <h3>&#169; TK Games 2020</h3>
+      <p>All games here are property of TK Games and fines can be inflicted on anyone who distributes code.</p>
+    </div>
+  
+    <div class="w3-quarter">
+      <h3>News</h3>
+
+    </div>
+
+    <div class="w3-quarter w3-serif">
+      <h3>POPULAR GAMES</h3>
+      <p>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Hit the Dot!</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Race</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">UAD</span>
+      
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
