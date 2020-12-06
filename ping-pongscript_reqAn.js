@@ -1,4 +1,3 @@
-/*Arshad Muhammed*/
 
 $(function () {
 
