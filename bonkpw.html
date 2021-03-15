@@ -18,14 +18,14 @@
     <p><b>How to Play:</b>Press Space to move the ball and try not to <br>
         let the ball go under the black line by moving the back and forth keys.</p>
     <p>Password:<input id="passwordBox" type="password" /></p>
-    <a href="bonkgame.html" onclick="return checkPassword();">
+    <a href="bonky.html" onclick="return checkPassword();">
 Click here to submit password
 </a>
 <script>
     function checkPassword() {
         var password = document.getElementById("passwordBox") 
         var passwordText = password.value;
-        if(passwordText == "bonking"){
+        if(passwordText == "artificers"){
             return true;
         }
         alert("Access Denied! Incorrect Password!");
